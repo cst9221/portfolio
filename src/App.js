@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>최승태 포트폴리오 헤더</h1>
+        <h1>최승태 포트폴리오</h1>
       </header>
 
       <nav>
@@ -12,7 +12,7 @@ function App() {
           <li>home</li>
         </ol>
       </nav>
-      
+
       <main>
         <section>
           <h2>Web</h2>
