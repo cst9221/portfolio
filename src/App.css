@@ -1,3 +1,124 @@
-header {
+a{text-decoration: none;}
+nav {padding: 10px 0;}
+ul {padding:0}
+li {list-style: none;}
+.font{
+    color:rgb(146, 146, 146);
+    font-size: 1rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-height: 1.8;
+}
+h1, h2, h3, h4, h5, h6 {
+    color:rgb(146, 146, 146);
+}
+
+.container {
+    display: flex;
+    padding: 0 20px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.container.pc{
+   width: 1024px 
+}
+.container.tablet{
+    width: 724px
+}
+.container.mobile{
+    min-width: 496px
+    
+}
+.container > * {
+    width:100%
+}
+
+
+.row{
+    margin: 3rem auto auto;
+}
+.no-margin{
+    margin:0;
+}
+.d-flex{
+    display: flex;
+}
+.d-column {
+    flex-direction: column;
+}
+.i-circle{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.i-rect{
+    overflow: hidden;
+    
+}
+#i-profile {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 
 }
+#i-profile .pc {
+    
+}
+
+.navbar {
+    position: fixed;
+    top:0;
+    padding: 10px 10px;
+    background: #fff;
+}
+.nav{
+    justify-content: space-between;
+}
+.nav.mobile{
+    flex-direction: column;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: #fff;
+    z-index: 1;
+}
+.navbar-brand > .font{
+    font-size: 2rem;
+}
+.nav-menu{
+    width: 30px;
+    height: 30px;
+}
+.nav-menu > svg{
+    display: none;
+    margin-left: auto;
+    margin-top: auto;
+}
+.nav-menu.mobile > svg{
+    display: block;
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: end;
+    transition: all 0.4s;
+}
+.navbar-collapse.mobile{
+    flex-direction: column;
+}
+.navbar-right{
+    display: flex;
+}
+.nav-item{
+    padding:15px 15px 15px 0;
+}
+.nav-item > .font {
+    font-size: 1.2rem;
+}
+
+
+
