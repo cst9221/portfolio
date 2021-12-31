@@ -31,7 +31,7 @@ function App() {
             </div>
           </div>
 
-          <ul className={`navbar-collapse navbar-right ${view}`} style={{height: menu ? "auto" : 0}}>
+          <ul className={`navbar-collapse navbar-right ${view}`}>
             <li className='nav-item'>
               <a href="#about" className='font'>ABOUT</a>
             </li>
@@ -42,11 +42,10 @@ function App() {
               <a href="#contact" className='font'>CONTACT</a>
             </li>
           </ul>
-
         </div>
       </nav>
       
-      <header className="row">
+      <header className="header row" >
         <div className={`container ${view}`}>
           <div className={`i-rect ${view}`}>
             <img id="i-profile" src="https://media.vlpt.us/images/chltmdxo3/profile/dc7db97c-e812-475a-9aec-be5c4e53bbc2/KakaoTalk_Photo_2021-07-07-23-53-40.jpeg?w=240"/>
